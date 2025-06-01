@@ -588,6 +588,31 @@ span{
     padding: 1rem 2rem;
 }
 
+@media (max-width: 768px) {
+    .project-card {
+      flex-direction: column;
+      padding: 24px;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .project-text {
+      padding: 0;
+    }
+  
+    .project-images {
+      order: 2; /* Place l’image après le texte */
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+  
+    .project-images img {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+    }
+  }
+  
 
 }/*Responsivität ende*/
 
